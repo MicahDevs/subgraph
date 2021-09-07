@@ -3,10 +3,10 @@ schema:
   file: ./schema.graphql
 dataSources:
   - kind: ethereum/contract
-    name: DopeWarsLoot
+    name: Gear (for Punks)
     network: mainnet
     source:
-      address: '0x8707276df042e89669d69a177d3da7dc78bd8723'
+      address: '0xFf796cbbe32B2150A4585a3791CADb213D0F35A3'
       abi: DopeWarsLoot
       startBlock: 13136082
     mapping:
