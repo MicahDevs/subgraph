@@ -7,15 +7,14 @@ type _Schema_
       {
         entity: "Bag"
         fields: [
-          { name: "clothes" }
+          { name: "chest" }
+          { name: "eyes" }
           { name: "foot" }
           { name: "hand" }
-          { name: "neck" }
-          { name: "ring" }
+          { name: "head" }
+          { name: "implant" }
           { name: "waist" }
           { name: "weapon" }
-          { name: "drugs" }
-          { name: "vehicle" }
         ]
       }
     ]
@@ -23,15 +22,14 @@ type _Schema_
 
 type Bag @entity {
   id: ID!
-  clothes: String!
+  chest: String!
+  eyes: String!
   foot: String!
   hand: String!
-  neck: String!
-  ring: String!
+  head: String!
+  implant: String!
   waist: String!
   weapon: String!
-  drugs: String!
-  vehicle: String!
   currentOwner: Wallet!
   minted: BigInt!
 }
